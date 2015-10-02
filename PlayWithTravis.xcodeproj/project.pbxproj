@@ -10,6 +10,9 @@
 		413D2B3C1BBEE3DB003464F9 /* UtilsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413D2B3B1BBEE3DB003464F9 /* UtilsTests.swift */; };
 		413D2B3E1BBEE3F0003464F9 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413D2B3D1BBEE3F0003464F9 /* Utils.swift */; };
 		413D2B3F1BBEE409003464F9 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413D2B3D1BBEE3F0003464F9 /* Utils.swift */; };
+		413D2B411BBEF74B003464F9 /* PlayWithTravis.app in CopyFiles */ = {isa = PBXBuildFile; fileRef = 41A992891BBEC2AB008140BB /* PlayWithTravis.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		413D2B421BBEF74B003464F9 /* PlayWithTravisTests.xctest in CopyFiles */ = {isa = PBXBuildFile; fileRef = 41A9929F1BBEC2AB008140BB /* PlayWithTravisTests.xctest */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		413D2B441BBEF74B003464F9 /* Pods_PlayWithTravis.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4E9A486547CF692083928FAF /* Pods_PlayWithTravis.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		41A9928D1BBEC2AB008140BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A9928C1BBEC2AB008140BB /* AppDelegate.swift */; };
 		41A9928F1BBEC2AB008140BB /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A9928E1BBEC2AB008140BB /* FirstViewController.swift */; };
 		41A992911BBEC2AB008140BB /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A992901BBEC2AB008140BB /* SecondViewController.swift */; };
@@ -37,6 +40,21 @@
 			remoteInfo = PlayWithTravis;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		413D2B401BBEF719003464F9 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				413D2B411BBEF74B003464F9 /* PlayWithTravis.app in CopyFiles */,
+				413D2B421BBEF74B003464F9 /* PlayWithTravisTests.xctest in CopyFiles */,
+				413D2B441BBEF74B003464F9 /* Pods_PlayWithTravis.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		413D2B3B1BBEE3DB003464F9 /* UtilsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UtilsTests.swift; sourceTree = "<group>"; };
@@ -207,6 +225,7 @@
 				41A992A61BBEC2AB008140BB /* Sources */,
 				41A992A71BBEC2AB008140BB /* Frameworks */,
 				41A992A81BBEC2AB008140BB /* Resources */,
+				413D2B401BBEF719003464F9 /* CopyFiles */,
 			);
 			buildRules = (
 			);
