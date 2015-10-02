@@ -7,5 +7,5 @@ podfile: Podfile
 
 xcode_workspace: ./PlayWithTravis.xcworkspace
 xcode_scheme: PlayWithTravis
-xcode_sdk: iphonesimulator8.1
+xcode_sdk: iphonesimulator9.0
 
