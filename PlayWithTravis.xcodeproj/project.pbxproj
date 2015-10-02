@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		413D2B3C1BBEE3DB003464F9 /* UtilsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413D2B3B1BBEE3DB003464F9 /* UtilsTests.swift */; };
+		413D2B3E1BBEE3F0003464F9 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413D2B3D1BBEE3F0003464F9 /* Utils.swift */; };
+		413D2B3F1BBEE409003464F9 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413D2B3D1BBEE3F0003464F9 /* Utils.swift */; };
 		41A9928D1BBEC2AB008140BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A9928C1BBEC2AB008140BB /* AppDelegate.swift */; };
 		41A9928F1BBEC2AB008140BB /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A9928E1BBEC2AB008140BB /* FirstViewController.swift */; };
 		41A992911BBEC2AB008140BB /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A992901BBEC2AB008140BB /* SecondViewController.swift */; };
@@ -36,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		413D2B3B1BBEE3DB003464F9 /* UtilsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UtilsTests.swift; sourceTree = "<group>"; };
+		413D2B3D1BBEE3F0003464F9 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		41A992891BBEC2AB008140BB /* PlayWithTravis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlayWithTravis.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41A9928C1BBEC2AB008140BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		41A9928E1BBEC2AB008140BB /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -113,6 +118,7 @@
 				41A992951BBEC2AB008140BB /* Assets.xcassets */,
 				41A992971BBEC2AB008140BB /* LaunchScreen.storyboard */,
 				41A9929A1BBEC2AB008140BB /* Info.plist */,
+				413D2B3D1BBEE3F0003464F9 /* Utils.swift */,
 			);
 			path = PlayWithTravis;
 			sourceTree = "<group>";
@@ -122,6 +128,7 @@
 			children = (
 				41A992A31BBEC2AB008140BB /* PlayWithTravisTests.swift */,
 				41A992A51BBEC2AB008140BB /* Info.plist */,
+				413D2B3B1BBEE3DB003464F9 /* UtilsTests.swift */,
 			);
 			path = PlayWithTravisTests;
 			sourceTree = "<group>";
@@ -336,6 +343,7 @@
 				41A992911BBEC2AB008140BB /* SecondViewController.swift in Sources */,
 				41A9928D1BBEC2AB008140BB /* AppDelegate.swift in Sources */,
 				41A9928F1BBEC2AB008140BB /* FirstViewController.swift in Sources */,
+				413D2B3E1BBEE3F0003464F9 /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,6 +352,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				41A992A41BBEC2AB008140BB /* PlayWithTravisTests.swift in Sources */,
+				413D2B3C1BBEE3DB003464F9 /* UtilsTests.swift in Sources */,
+				413D2B3F1BBEE409003464F9 /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
