@@ -28,9 +28,15 @@ class PlayWithTravisUITests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
-        // Use recording to get started writing UI tests.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    func testTabSwitch() {
+        let app = XCUIApplication()
+        let tabBarsQuery = XCUIApplication().tabBars
+        tabBarsQuery.buttons["Second"].tap()
+        XCTAssertTrue(app.buttons["Second Button"].exists, "Second button missing")
+        XCTAssertFalse(app.buttons["First Button"].exists, "First button is on when it shouldn't be")
+        tabBarsQuery.buttons["First"].tap()
+        XCTAssertTrue(app.buttons["First Button"].exists, "First button missing")
+        XCTAssertFalse(app.buttons["Second Button"].exists, "second button is on when it shouldn't be")
     }
     
 }
