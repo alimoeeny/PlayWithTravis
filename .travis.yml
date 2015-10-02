@@ -1,8 +1,11 @@
-language: Objective-c
+language: objective-c
+
 
 osx_image: xcode7
 
 podfile: Podfile
 
-xcode_workspace: PlayWithTravis.xcworkspace
+xcode_workspace: ./PlayWithTravis.xcworkspace
+xcode_scheme: PlayWithTravis
+xcode_sdk: iphonesimulator8.1
 
